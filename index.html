@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        /* General styling */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { display: flex; flex-direction: column; align-items: center; padding: 20px; background-color: #f4f4f9; color: #333; }
+        h1, h2 { color: #333; margin-bottom: 10px; }
+        p { margin-bottom: 15px; line-height: 1.6; }
+        .container { max-width: 800px; width: 100%; }
+
+        /* Section styling */
+        .section { margin: 20px 0; }
+        .section h2 { font-size: 1.5em; }
+        .skills, .projects, .contact { display: flex; flex-direction: column; gap: 10px; }
+        .skills span, .project-item { padding: 8px 12px; background: #e0e0e0; border-radius: 5px; }
+        .project-item a { color: #007bff; text-decoration: none; }
+
+        /* Footer */
+        footer { margin-top: 20px; color: #777; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Introduction Section -->
+        <section class="section intro">
+            <h1>Your Name</h1>
+            <p>Embedded Linux Developer | Tech Enthusiast | Open Source Contributor</p>
+            <p>Welcome to my portfolio! Here you’ll find information about my skills, projects, and how to get in touch. I'm passionate about building solutions in embedded systems, automation, and beyond.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills">
+            <h2>Skills</h2>
+            <span>Embedded Linux</span>
+            <span>Python</span>
+            <span>C/C++</span>
+            <span>Shell Scripting</span>
+            <span>CI/CD (Jenkins, GitLab)</span>
+            <span>Version Control (Git)</span>
+            <span>Labgrid, Pytest</span>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Automated Device Testing Suite</h3>
+                <p>Built an automated testing suite for embedded Linux devices using Labgrid, integrated with Jenkins. [Link to repo]</p>
+            </div>
+            <div class="project-item">
+                <h3>Real-Time Data Logging System</h3>
+                <p>Developed a Python-based system for logging and analyzing data in real-time from IoT sensors. [Link to repo]</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+        </section>
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
